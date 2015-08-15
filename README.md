@@ -15,7 +15,7 @@ This application is a web based application to provide following functions:
 Java 8
 Maven 3.3.3
 
-*Endpoints
+*URLs
 http://localhost:8080/health
 healthcheck endpoint, if this application is running,"Hello World!" will display
 http://localhost:8080/familycreation
@@ -28,6 +28,18 @@ http://localhost:8080/update?id={id}
 Update existing people with id
 http://localhost:8080/console
 H2Database Console
+
+*Endpoint
+http://localhost:8080/people - Method = GET   : get all people
+http://localhost:8080/people - Method = POST  : create one people,body in JSON
+http://localhost:8080/people/{id} - Method = PUT  :update one people with id,body in JSON
+http://localhost:8080/people/{id} - Method = DELETE :delete one people with id
+
+http://localhost:8080/family - Method = GET   : get all families
+http://localhost:8080/family - Method = POST  : create one family,body in JSON
+http://localhost:8080/family/{id} - Method = PUT  :update one family with id,body in JSON
+http://localhost:8080/family/{id} - Method = DELETE :delete one family with id
+
 
 *Repository
 https://github.com/mning/uptake
