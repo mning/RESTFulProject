@@ -26,6 +26,8 @@ http://localhost:8080/
 List all people created,on this page, you can select "Delete" or "Update"
 http://localhost:8080/update?id={id}
 Update existing people with id
+http://localhost:8080/console
+H2Database Console
 
 *Repository
 https://github.com/mning/uptake
