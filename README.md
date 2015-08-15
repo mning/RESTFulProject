@@ -17,7 +17,7 @@ Maven 3.3.3
 
 *URLs
 http://localhost:8080/health
-healthcheck endpoint, if this application is running,"Hello World!" will display
+health check, if this application is running,"Hello World!" will display
 http://localhost:8080/familycreation
 Create a family first before creating people
 http://localhost:8080/create
