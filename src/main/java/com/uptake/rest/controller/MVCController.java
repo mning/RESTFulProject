@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -57,5 +58,11 @@ public class MVCController {
     public ModelAndView familyCreate() {
         ModelAndView modelAndView = new ModelAndView("familyCreation");
         return modelAndView;
+    }
+
+    @RequestMapping("/health")
+    @ResponseBody
+    String health() {
+        return "Hello World!";
     }
 }

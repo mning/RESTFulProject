@@ -29,9 +29,4 @@ public class UptakeRestApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(UptakeRestApplication.class);
     }
-    @RequestMapping("/health")
-    @ResponseBody
-    String health() {
-        return "Hello World!";
-    }
 }
