@@ -1,4 +1,4 @@
-Uptake Interview RESTFul Project
+A Fun RESTFul Project
 * Introduction
 This application is a web based application to provide following functions:
     1.)People Creation
