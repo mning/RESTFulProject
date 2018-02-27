@@ -1,7 +1,7 @@
-package com.uptake.rest.repository;
+package com.mning.rest.repository;
 
-import com.uptake.rest.UptakeRestApplication;
-import com.uptake.rest.domain.Family;
+import com.mning.rest.MningRestApplication;
+import com.mning.rest.domain.People;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,14 +16,15 @@ import static org.junit.Assert.assertEquals;
  * Created by mning on 8/14/2015.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = UptakeRestApplication.class)
-public class FamilyRepositoryTest {
+@SpringApplicationConfiguration(classes = MningRestApplication.class)
+public class PeopleRepositoryTest {
+
     @Autowired
-    FamilyRepository repository;
+    PeopleRepository repository;
 
     @Test
     public void findsAllNotes() {
-        List<Family> families = this.repository.findAll();
-        assertEquals(0, families.size());
+        List<People> peopleList = this.repository.findAll();
+        assertEquals(0, peopleList.size());
     }
 }

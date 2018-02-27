@@ -1,4 +1,4 @@
-package com.uptake.rest.configuration;
+package com.mning.rest.configuration;
 
 /**
  * Created by mning on 8/14/2015.

@@ -1,12 +1,12 @@
-package com.uptake.rest.controller;
+package com.mning.rest.controller;
 
 /**
  * Created by mning on 8/12/2015.
  */
-import com.uptake.rest.domain.Family;
-import com.uptake.rest.domain.People;
-import com.uptake.rest.repository.FamilyRepository;
-import com.uptake.rest.repository.PeopleRepository;
+import com.mning.rest.domain.Family;
+import com.mning.rest.domain.People;
+import com.mning.rest.repository.FamilyRepository;
+import com.mning.rest.repository.PeopleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;

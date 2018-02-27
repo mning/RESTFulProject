@@ -1,4 +1,4 @@
-package com.uptake.rest;
+package com.mning.rest;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -19,9 +19,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * Created by mning on 8/14/2015.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = UptakeRestApplication.class)
+@SpringApplicationConfiguration(classes = MningRestApplication.class)
 @WebAppConfiguration
-public class UptakeRestApplicationTest {
+public class MningRestApplicationTest {
     @Autowired
     private WebApplicationContext context;
 

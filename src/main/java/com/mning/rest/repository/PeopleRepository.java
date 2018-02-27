@@ -1,11 +1,11 @@
-package com.uptake.rest.repository;
+package com.mning.rest.repository;
 
 /**
  * Created by mning on 8/14/2015.
  */
 import java.util.List;
 
-import com.uptake.rest.domain.People;
+import com.mning.rest.domain.People;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(collectionResourceRel = "people", path = "people")
